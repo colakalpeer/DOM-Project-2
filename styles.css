@@ -63,6 +63,24 @@ body {
 
 #modal-container {
   display: none;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100px;
+  z-index: 1;
+  background-color: rgba(0,0,0 green, blue, alpha);
+}
+
+
+
+@keyframes animatemodal {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+
+  to {
+    top: 50%;
+    opacity: 1;
+  }
 }
